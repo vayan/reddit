@@ -1,0 +1,725 @@
+/***TEXT CHANGE****/
+/*
+/*****************/
+
+/*Text after numbers sub*/
+.subscribers span.number:after {
+content: " readers" ;
+}
+
+/*Text after number online*/
+.users-online .word::after {
+font-size: small;
+content: "online now"
+}
+
+
+/*** RES ***/
+
+ .RESshortcutside {
+    display: none !important;
+ }
+
+
+.keyHighlight {
+outline: 1px dashed #FFA43C !important;
+background-color: transparent !important;
+}
+
+.thing.spam {
+background-color: #690d16;
+}
+
+.big-mod-buttons {
+color: black;
+}
+
+.entry {
+    padding: 2px;
+}
+
+.entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp {
+color: black;
+}
+
+.nextprev {
+padding: 5px;
+}
+
+.nextprev a, .nextprev a:hover{
+border: 1px solid #EBBB0D;
+background-color: #69370D;
+}
+
+.nextprev {
+color: #ECEBDE;
+}
+
+.link .score.dislikes {
+color: #ede7aa;
+}
+
+.titlebox .redditname {
+
+}
+
+.styleToggle {
+margin-bottom: 5px !important;
+}
+
+
+.fancy-toggle-button .add {
+font-size: 100%;
+color: #ECEBDE !important;
+border: 1px solid #ebbb0d !important;
+background-color: #0d6932;
+background-image: none !important;
+}
+
+.fancy-toggle-button .remove {
+text-align: center;
+font-size: 100%;
+color: #ECEBDE !important;
+border: 1px solid #ebbb0d !important;
+background-color: #690d0d ;
+background-image: none !important;
+}
+
+.titlebox .fancy-toggle-button {
+display: block;
+margin: 0 auto 0 auto !important;
+
+background-color: transparent;
+}
+
+.subscribers {
+position: relative;
+left: -20px;
+}
+
+.users-online {
+display: inline;
+position: relative;
+left: -20px;
+}
+
+.subscribers span.word {  display: none ; }
+
+.users-online::before { background-image: none; }
+
+
+.users-online .number::before { content: '| '; }
+.users-online .word { font-size: 0; content: ''; }
+
+body:not(.res) .side .fancy-toggle-button { display: block; }
+
+
+.comment .userattrs {
+display:none;
+}
+
+body {
+background: url(%%bg%%) no-repeat;
+color: #e1f2f5;
+width: 1300px;
+padding-top: 135px;
+margin: 0 auto 0 auto;
+background-color: #000509;
+}
+
+a {
+    color: #ffc546;
+}
+
+a.author {
+    color: #FFA43C !important;
+}
+
+.tagline .moderator, .green {
+ color : rgb(23, 201, 23) !important;
+}
+
+.tagline .submitter {
+    color : rgb(74, 122, 199) !important;
+}
+
+.content a,  .commentarea a:visited, .comment .md p > a {
+color: #FFA43C;
+}
+
+.content a:visited, .commentarea .comment .md p > a:visited {
+ color: rgb(146,82,8) ;
+}
+
+.infobar {
+margin: 5px !important;
+background-color: rgb(45, 88, 153);
+border: 1px solid #292824;
+}
+
+textarea {
+background-color: #ECEBDE;
+width: 100%;
+}
+
+.expando-button {
+background-color: transparent;
+}
+
+#header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+border-bottom: 1px solid #42403c;
+}
+
+#header-bottom-left {
+background-image: url(%%bg-header%%);
+background-repeat: no-repeat;
+background-color: #000000;
+background-position: -220px;
+}
+
+.content.submit .info-notice {
+    color: black;
+}
+
+#header .pagename, #header .redditname {
+font-size: 0;
+text-indent: -99999px;
+background-image: url(%%logo-wildstar-secondary%%);
+background-repeat: no-repeat;
+display: block;
+margin: 0 auto 0 auto;
+width: 256px;
+height: 99px;
+}
+
+#header .pagename , #header .redditname a{
+text-indent: -99999px;
+display: block;
+margin: 0 auto 0 auto;
+width: 256px;
+height: 98px;
+}
+
+#header .redditname:hover {
+background-image: url(%%logo-wildstar-primary%%);
+}
+
+#header-bottom-left .tabmenu {
+position: absolute;
+bottom: 0px;
+}
+
+#header-img {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 42px;
+    margin-bottom: 23px;
+}
+
+#header-bottom-right {
+position: absolute;
+top: auto !important;
+bottom: 0px !important;
+background-color: transparent;
+}
+
+#header-bottom-right .separator,#header-bottom-right .user {
+color: #ebbb0d;
+}
+
+#header-bottom-right a {
+color: #ffffff;
+}
+
+#userbarToggle {
+display: none !important;
+}
+
+#header-bottom-left .tabmenu {
+    background-image: url(%%bg-menubar%%);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 4px;
+    left: 0px;
+}
+
+
+.tabmenu li {
+padding: 2px 0 0 1px;
+}
+
+.tabmenu li a {
+    color: #aebbc0;
+    background: transparent;
+}
+
+.tabmenu li.selected a {
+border: none;
+color: #3cebe5;
+background-color: transparent;
+}
+
+.tabmenu.formtab li {
+margin-left: 5px;
+}
+
+.tabmenu.formtab a {
+border: none;
+}
+
+.tabmenu.formtab .selected a {
+font-size: 100%;
+color: #F46400;
+background-color: transparent;
+}
+
+.formtabs-content {
+border: none;
+}
+
+.formtabs-content .infobar {
+color: black;
+}
+
+.roundfield, .linefield {
+border: 1px dotted #FFA43C;
+background-color: #002a39;
+}
+
+.linefield .title {
+color: #FFC250
+}
+
+.pagename a, .redditname, .titlebox h1 a{
+    color: #FFC250;
+}
+
+.content {
+    position: relative;
+    right: 40px;
+background:url(%%top-bg%%) 0px 0px no-repeat;
+margin-right: 320px;
+width: 977px;
+padding-top: 29px;
+padding-left: 21px;
+}
+
+.content .sitetable, .content .submit   {
+    background:url(%%content-art%%) 0px 0px repeat-y;
+    width: 946px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #292824;
+}
+
+.content h1 {
+    background:url(%%content-art%%) 0px 0px repeat-y;
+    border-bottom: 3px solid #292824;
+    width: 946px;
+    padding: 10px 10px 10px 20px;
+}
+
+.usertext-body h1 {
+    background: none;
+    border: none;
+    width:  auto;
+    padding: inherit;
+    font-size: 120%;
+}
+
+.submit  {
+   right: 6px;
+}
+
+.commentarea .sitetable {
+    border: none;
+    background: transparent;
+    width: 920px
+}
+
+.commentarea {
+    width: 946px;
+    padding-left: 18px;
+    background:url(%%content-art%%) 0px 0px repeat-y;
+    border-bottom: 3px solid #292824;
+}
+
+.side {
+width: 300px;
+padding: 20px;
+color : #8A6648;
+background:url(%%content-side%%) 0px 0px repeat-y;
+}
+
+
+
+.side h1 {
+color : #FFA43C;
+}
+
+.linkinfo {
+color: #ECEBDE;
+border: none;
+background: none;
+}
+
+.titlebox strong {
+    padding-top: 20px;
+    height: 48px;
+    border: none;
+    background-color: transparent;
+    background-image: url(%%bg-title%%);
+    background-repeat: no-repeat;
+    background-position: top left;
+text-align: center;
+line-height: 30px;
+display: block;
+}
+
+#search input{
+background-color: #ECEBDE;
+padding: 6px;
+border-radius: 5px;
+}
+
+.titlebox form.toggle, .leavemoderator {
+color: #ECEBDE;
+background-color: transparent;
+}
+
+.titlebox {
+color: #ECEBDE;
+
+background-color: transparent;
+}
+
+.side .content {
+    background-image: none;
+    width: 290px;
+    position: inherit;
+    margin-right: 0;
+    padding: 5px;
+    right: auto;
+
+}
+
+.side a:visited {
+    color: #FFA43C;
+}
+
+.sidecontentbox .content {
+color: #ECEBDE;
+border: 1px dotted #FFA43C;
+background-color: #002a39;
+}
+
+.sidebox .spacer {
+color: #ECEBDE;
+border: 1px dotted #FFA43C;
+background-color: #002a39;
+}
+
+.login-form-side {
+color: #ECEBDE;
+border: 1px dotted #FFA43C;
+background-color: #29201a;
+}
+
+.sidebox .subtitle {
+color: #ECEBDE;
+}
+
+.icon-menu a {
+background-color: transparent;
+}
+
+
+.sidecontentbox .title h1 {
+color : #FFA43C;
+}
+
+.tagline a {
+ color: #FFA43C;
+}
+
+.titlebox .bottom {
+color: #ECEBDE;
+}
+
+.thumbnail {
+    margin: 5px;
+width: 70px;
+height: 50px;
+border : 1px solid #2E2C2A;
+border-radius: 5px;
+}
+
+.thumbnail.nsfw {
+border: none;
+height: 50px;
+}
+
+.thumbnail.self, .thumbnail.default, .thumbnail.nsfw, .arrow{
+border: none;
+background-image: url(%%spritesheetws%%) !important;
+}
+
+.expando-button.selftext.expanded:hover, .expando-button.selftext.expanded, .expando-button.selftext.collapsed  {
+background-position: 0px 0px !important;
+background-image: url(%%expandtxt%%) !important;
+}
+
+.expando-button.video.collapsed:hover, .expando-button.video.collapsed, .expando-button.video.expanded {
+background-position: 0px 0px !important;
+background-image: url(%%expandvid%%) !important;
+}
+
+.expando-button.image {
+background-position: 0px 0px !important;
+background-image: url(%%expandimg%%) !important;
+}
+
+.expando-button {
+
+}
+
+.arrow.upmod {
+background-position: 0px -629px;
+}
+
+.arrow.up {
+background-position: -97px -612px;
+}
+
+.arrow.downmod {
+background-position: -81px -612px;
+}
+
+.arrow.down {
+background-position: -65px -612px;
+}
+
+.nsfw-stamp acronym {
+background-color: rgb(162, 24, 24);
+color : black;
+border : 1px solid orange !important;
+}
+
+.morelink {
+height: 68px;
+border: none;
+background-color: transparent;
+background-image: url(%%bg-title%%);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+.morelink .nub,  .morelink:hover .nub {
+background-image: none;
+background-color: transparent;
+}
+
+.morelink:hover {
+    height: 68px;
+    border: none;
+    background-color: transparent;
+    background-image: url(%%bg-title%%);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.morelink a {
+    padding-top: 19px;
+color: rgb(255, 137, 0);
+}
+
+.thing .title.loggedin:visited,  .thing .title:visited{
+color: rgb(146, 82, 8) !important;
+}
+
+.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin.click:visited {
+color: rgb(146, 82, 8) !important;
+}
+
+.thing .title.loggedin, .thing .title {
+color: #FFA43C;
+}
+
+.link .usertext .md {
+border: 1px dotted #FFA43C;
+background-color: #002a39;
+}
+
+.panestack-title {
+border: none;
+}
+
+.commentarea {
+    border-top: 1px solid black;
+padding-bottom: 5px;
+width: 928px;
+}
+
+.commentarea .menuarea {
+padding-bottom: 5px;
+}
+
+.commentarea .spacer {
+padding-left: 6px;
+}
+
+.link.last-clicked {
+border: none;
+overflow: inherit;
+}
+
+.RESSubscriptionButton, .RESSubscriptionButton:hover {
+color: white !important;
+background-color: #69370d  !important;
+border: 1px solid #ebbb0d !important;
+}
+
+.res:not(.res-nightmode) .commentarea .comment {background-color:#002a39 !important;  width: 725px !important;}
+.res:not(.res-nightmode) .commentarea .comment .comment {background-color:rgb(1, 25, 34) !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment {background-color:#002a39 !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment {background-color:rgb(1, 25, 34) !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment {background-color:#002a39 !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment {background-color:rgb(1, 25, 34) !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment {background-color:#002a39 !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {background-color:rgb(1, 25, 34) !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {background-color:#002a39 !important;  overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{background-color:rgb(1, 25, 34) !important;  overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+
+.res-nightmode .commentarea .comment {background-color:#002a39 !important; width: 725px !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.res-nightmode .commentarea .comment .comment {background-color:rgb(1, 25, 34) !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.res-nightmode .commentarea .comment .comment .comment {background-color:#002a39 !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.res-nightmode .commentarea .comment .comment .comment .comment {background-color:rgb(1, 25, 34) !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.res-nightmode .commentarea .comment .comment .comment .comment .comment {background-color:#002a39 !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment {background-color:rgb(1, 25, 34) !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment {background-color:#002a39 !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {background-color:rgb(1, 25, 34) !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {background-color:#002a39 !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{background-color:rgb(1, 25, 34) !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+
+.comments-page .comment {background-color:#002a39 !important; width: 725px !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.comments-page .comment .comment {background-color:rgb(1, 25, 34) !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.comments-page .comment .comment .comment {background-color:#002a39 !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.comments-page .comment .comment .comment .comment {background-color:rgb(1, 25, 34) !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.comments-page .comment .comment .comment .comment .comment {background-color:#002a39 !important; }
+.comments-page .comment .comment .comment .comment .comment .comment {background-color:rgb(1, 25, 34) !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.comments-page .comment .comment .comment .comment .comment .comment .comment {background-color:#002a39 !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+.comments-page .comment .comment .comment .comment .comment .comment .comment .comment {background-color:rgb(1, 25, 34) !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment {background-color:#002a39 !important; overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+.comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{background-color:rgb(1, 25, 34) !important;overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+ }
+
+.res:not(.res-nightmode) .commentarea .comment  {
+border : 1px solid #2e2c2a !important;
+}
+
+div.child {border: none !important;}
+.comment  div.child {border: none !important;}
+.comment .comment div.child {border: none !important;}
+.comment .comment .comment   div.child {border: none !important;}
+.comment .comment .comment .comment  div.child {border: none !important}
+.comment .comment .comment .comment .comment  div.child {border: none !important;}
+.comment .comment .comment .comment .comment .comment  div.child {border: none !important;}
+.comment .comment .comment .comment .comment .comment .comment  div.child {border: none !important;}
+.comment .comment .comment .comment .comment .comment .comment .comment  div.child {border: none !important;}
+.comment .comment .comment .comment .comment .comment .comment .comment .comment  div.child {border: none !important;}
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment  div.child { border: none !important;}
+
+
+
+
+.comment .child {
+border : none;
+}
+
+.comment {
+overflow: inherit !important; padding: 2px !important; margin: 2px !important; margin-left: 0 !important;
+}
+
+.comments-page .comment {
+border : 1px solid #2e2c2a !important;
+}
+
+.new-comment .usertext-body {
+    background: none;
+border: none;
+}
+
+.author.submitter {
+padding: 2px !important;
+}
+
+.footer {
+border : 1px solid #2e2c2a;
+}
+
+.footer .col {
+border-left : 1px solid #2e2c2a;
+}
+
+.flat-vert.title {
+color: #FFC250;
+}
+
+.link {
+margin: 0 auto 0 auto;
+width: 893px;
+}
+
+.markhelp  {
+color: #ECEBDE !important;
+border: 1px dotted #FFA43C  !important;
+background-color: #29201a  !important;
+}
+
+.markhelp tr {
+color: #ECEBDE !important;
+border: 1px dotted #FFA43C  !important;
+background-color: #29201a  !important;
+}
+
+
+/***BOT****/
+
+.side a[href="/smallText"] { color: grey; font-size: 75%; }
+
+.side a[href="/smallText"]:hover {cursor: default;}
+
+.side a[href="/s"] {display: none;}
+

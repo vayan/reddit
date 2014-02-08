@@ -1,0 +1,1123 @@
+/***TEXT CHANGE****/
+/*
+/*****************/
+ 
+ 
+/*** WIKI ***/
+.wiki-page .pageactions .wikiaction-current, .wiki-page .pageactions .wikiaction:hover, .wiki-page .pageactions .wikiaction-current:hover {
+ background-color: #69370D;
+    color: #FFFFFF;
+}
+ 
+.wiki-page .pageactions {
+        border-radius: 0px;
+        border: 1px solid #EBBB0D;
+}
+ 
+.content a, .commentarea a:visited, .comment .md p > a {
+        color: #FFFFFF;
+}
+ 
+.wiki-page .wiki-page-content .md.wiki h1,.wiki-page .wiki-page-content .md.wiki h2,.wiki-page .wiki-page-content .md.wiki h3 {
+        color: #FFA43C;
+}
+ 
+ 
+ 
+/*Text after numbers sub*/  
+.subscribers span.number:after {
+content: " readers" ;
+}
+ 
+/*Text after number online*/  
+.users-online .word::after {
+font-size: small;
+content: "online now";
+}
+ 
+ 
+.comment a[href*="youtube.com"], .comment a[href*="youtu.be"], .self a[href*="youtube.com"], .self a[href*="youtu.be"] {
+    padding-left: 20px;
+    background: url(%%youtube%%) no-repeat scroll left top transparent;
+}
+ 
+ 
+/*** RES ***/
+ 
+ .RESshortcutside {
+        display: none !important;
+ }
+ 
+ .RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+        background-color: transparent !important;
+        outline: medium none !important;
+ }
+ 
+html:not([lang="dd"]) .RES-keyNav-activeElement {
+        background-color: transparent !important;
+}  
+ 
+.RES-keyNav-activeElement {
+        background: transparent !important;
+        outline: medium none !important;
+ }
+ 
+ .res .commentarea .RES-keyNav-activeElement .md, .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+        background: transparent !important;
+}
+ 
+ 
+.keyHighlight {
+outline: 1px dashed #FFA43C !important;
+background-color: transparent !important;
+}
+ 
+.thing.spam {
+background-color: #690d16;
+}
+ 
+.big-mod-buttons {
+color: black;
+}
+ 
+.entry {
+        padding: 2px;
+}
+ 
+.entry .buttons li.trial-stamp, .entry .buttons li.reported-stamp {
+color: black;
+}
+ 
+.nextprev {
+padding: 5px;
+}
+ 
+.nextprev a, .nextprev a:hover{
+border: 1px solid #EBBB0D;
+background-color: #69370D;
+}
+ 
+.nextprev {
+color: #ECEBDE;
+}
+ 
+.link .score.dislikes {
+color: #ede7aa;
+}
+ 
+.titlebox .redditname {
+ 
+}
+ 
+.styleToggle {
+margin-bottom: 5px !important;
+}
+ 
+ 
+.fancy-toggle-button .add {
+font-size: 100%;
+color: #ECEBDE !important;
+border: 1px solid #ebbb0d !important;
+background-color: #0d6932;
+background-image: none !important;
+}
+ 
+.fancy-toggle-button .remove {
+text-align: center;
+font-size: 100%;
+color: #ECEBDE !important;
+border: 1px solid #ebbb0d !important;
+background-color: #690d0d ;
+background-image: none !important;
+}
+ 
+.titlebox .fancy-toggle-button {
+display: block;
+margin: 0 auto 0 auto !important;
+ 
+background-color: transparent;
+}
+ 
+.subscribers {
+position: relative;
+left: -20px;
+}
+ 
+.users-online {
+display: inline;
+position: relative;
+left: -20px;
+}
+ 
+.subscribers span.word {  display: none ; }
+ 
+.users-online::before { background-image: none; }
+ 
+ 
+.users-online .number::before { content: '| '; }
+.users-online .word { font-size: 0; content: ''; }
+ 
+body:not(.res) .side .fancy-toggle-button { display: block; }
+ 
+ 
+.comment .userattrs {
+ 
+}
+ 
+.tagline > .flair {
+ 
+}
+ 
+ .linkflair-flair-weekly .linkflairlabel {
+    background: transparent;
+    border: none;    
+     color: #E92B2F;
+    margin-right: 5px;
+    font-size: 15px;
+    padding: 0;
+    display: inline;
+}
+ 
+.flair {
+vertical-align: middle;
+color: #ECEBDE;
+border: none;
+overflow: hidden;
+text-indent: -9000px;
+bottom: -6px;
+width: 20px;
+height: 20px;
+background-color: transparent;
+background-repeat: no-repeat;
+display: inline-block;
+}
+ 
+.flair:hover {
+        background-image: none;
+    background-color: white;
+    border: 1px solid orange;
+    bottom: 0px;
+    color: black;
+    height: 18px;
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+    text-indent: 0px;
+    line-height: 18px;
+    vertical-align: middle;
+    display: inline-block;
+    width: auto;
+    padding: 0 5px;
+}
+ 
+.userattrs {
+        content: " ";
+}
+ 
+.side .flairselectbtn:after {
+        content: " - add your in game name";
+}
+ 
+.flairselector .customizer {
+        display: block;
+}
+ 
+.bottom .flair {
+display: none;
+}
+ 
+.flair-flair-mojang {
+    background-image: url(%%mojanglogo%%);
+}
+ 
+.flair-flair-esl{
+    background-image: url(%%flair-esl%%);
+}
+ 
+.flair-flair-ice{
+    background-image: url(%%flair-ice%%);
+}
+ 
+.flair-flair-multi {
+background-image: url(%%multideckflair%%);
+}
+ 
+.flair-flair-growth {
+background-image: url(%%FlairGrowth%%);
+}
+ 
+.flair-flair-order {
+background-image: url(%%FlairOrder%%);
+}
+ 
+.flair-flair-energy {
+background-image: url(%%FlairEnergy%%);
+}
+ 
+.flair-flair-decay {
+background-image: url(%%FlairDecay%%);
+}
+ 
+.flair-flair-wnf {
+background-image: url(%%flair-wnf%%);
+}
+ 
+.flair-flair-badger {
+background-image: url(%%flair-badger%%);
+}
+ 
+.flair-flair-rnb {
+background-image: url(%%flair-rnb%%);
+}
+ 
+.flair-flair-sa {
+background-image: url(%%flair-sa%%);
+}
+ 
+ 
+ 
+ 
+body {
+background-color: #1B1512;
+color: #ECEBDE;
+}
+a.author {
+        color: #FFA43C !important;
+}
+ 
+.tagline .submitter {
+        color : rgb(74, 122, 199) !important;
+}
+ 
+.tagline .moderator, .green {
+ color : rgb(23, 201, 23) !important;
+}
+ 
+ 
+ 
+.content a,  .commentarea a:visited, .comment .md p > a {
+color: #FFA43C;
+}
+ 
+.content a:visited, .commentarea .comment .md p > a:visited {
+ color: rgb(146,82,8) ;
+}
+ 
+.infobar {
+margin: 5px !important;
+color :black;
+}
+ 
+textarea {
+background-color: #ECEBDE;
+width: 100%;
+}
+ 
+.expando-button {
+background-color: transparent;
+}
+ 
+#header {
+border-bottom: 1px solid #FFA43C;
+}
+ 
+#header-bottom-left {
+background-image: url(%%bg-head%%);
+background-repeat: no-repeat;
+background-color: #1b1612;
+background-position: center center;
+}
+ 
+.content.submit .info-notice {
+        color: black;
+}
+ 
+#header .pagename, #header .redditname {
+font-size: 0;
+text-indent: -99999px;
+background-image: url(%%logo%%);
+background-repeat: no-repeat;
+display: block;
+margin: 0 auto 0 auto;
+width: 256px;
+height: 99px;
+}
+ 
+#header .pagename , #header .redditname a{
+text-indent: -99999px;
+display: block;
+margin: 0 auto;
+width: 256px;
+height: 100px;
+}
+ 
+#header .redditname:hover {
+background-image: url(%%logohover%%);
+}
+ 
+#header-bottom-left .tabmenu {
+position: absolute;
+bottom: 0px;
+}
+ 
+#header-img-a {
+position: absolute;
+top:18px;
+display: block;
+width: 118px;
+height: 82%;
+background-image: url(%%logo-reddit%%);
+background-repeat: no-repeat;
+}
+ 
+#header-img-a:hover {
+background-image: url(%%logo-reddit-over%%);
+background-repeat: no-repeat;
+}
+ 
+#header-img {
+display: none;
+ 
+}
+ 
+#header-bottom-right {
+position: absolute;
+top: auto !important;
+bottom: 0px !important;
+border-top: 1px solid #ebbb0d;
+border-left: 1px solid #ebbb0d;
+border-right: 1px solid #ebbb0d;
+background-color: #69370d;
+}
+ 
+#header-bottom-right .separator,#header-bottom-right .user {
+color: #ebbb0d;
+}
+ 
+#header-bottom-right a {
+color: #ffffff;
+}
+ 
+#userbarToggle {
+display: none !important;
+}
+ 
+ 
+ 
+.tabmenu li {
+padding: 2px 0 0 1px;
+border: 1px solid #ebbb0d;
+background-color: #69370d;
+}
+ 
+.tabmenu li a {
+color: #ffffff;
+background-color: #69370d;
+}
+ 
+.tabmenu li.selected a {
+border: none;
+color: #f46400;
+background-color: #69370d;
+}
+ 
+.tabmenu.formtab li {
+margin-left: 5px;
+}
+ 
+.tabmenu.formtab a {
+border: none;
+}
+ 
+.tabmenu.formtab .selected a {
+font-size: 100%;
+color: #F46400;
+background-color: transparent;
+}
+ 
+.formtabs-content {
+border: none;
+}
+ 
+.formtabs-content .infobar {
+color: black;
+}
+ 
+.roundfield, .linefield {
+color: #ECEBDE;
+border: 1px dotted #FFA43C;
+background-color: #29201a;
+}
+ 
+.linefield .title {
+color: #FFC250
+}
+ 
+.pagename a, .redditname, .titlebox h1 a{
+        color: #FFC250;
+}
+ 
+.content {
+background-color: #251d1a;
+position: relative;
+margin-right: 320px;
+}
+ 
+.side {
+width: 300px;
+color : #8A6648;
+ 
+background-color : #1B1512;
+}
+ 
+.side h1 {
+color : #FFA43C;
+}
+ 
+.linkinfo {
+color: #ECEBDE;
+border: 1px dotted #FFA43C;
+background-color: #29201a;
+}
+ 
+.titlebox strong {
+text-align: center;
+line-height: 30px;
+display: block;
+height: 30px;
+border: none;
+background-color: transparent;
+background-image: url(%%bgsub%%);
+background-repeat: no-repeat;
+background-position: bottom center;
+}
+ 
+#search input{
+background-color: #ECEBDE;
+width: 290px !important;
+}
+ 
+.titlebox form.toggle, .leavemoderator {
+color: #ECEBDE;
+background-color: transparent;
+}
+ 
+.titlebox {
+color: #ECEBDE;
+ 
+background-color: transparent;
+}
+ 
+.sidecontentbox .content {
+color: #ECEBDE;
+border: 1px dotted #FFA43C;
+background-color: #29201a;
+}
+ 
+.sidebox .spacer {
+color: #ECEBDE;
+border: 1px dotted #FFA43C;
+background-color: #29201a;
+}
+ 
+.login-form-side {
+color: #ECEBDE;
+border: 1px dotted #FFA43C;
+background-color: #29201a;
+}
+ 
+.sidebox .subtitle {
+color: #ECEBDE;
+}
+ 
+.icon-menu a {
+background-color: transparent;
+}
+ 
+.sidecontentbox .title h1 {
+color : #FFA43C;
+}
+ 
+.tagline a {
+ color: #FFA43C;
+}
+ 
+.titlebox .bottom {
+color: #ECEBDE;
+}
+ 
+.thumbnail {
+border : 1px solid #2E2C2A;
+border-radius: 5px;
+display: none;
+}
+ 
+.thumbnail.nsfw {
+border: none;
+height: 50px;
+}
+ 
+.thumbnail.default, .thumbnail.nsfw {
+border: none;
+background-position: center;
+background-image: url(%%EnergyBG%%) !important;
+}
+ 
+.arrow {
+border: none;
+background-image:url(%%rscrollssprite%%) !important;
+}
+ 
+ 
+ 
+.thumbnail.self {
+border: none;
+background-position: center;
+background-image: url(%%GrowthBG%%) !important;
+}
+ 
+ 
+ 
+.expando-button.selftext.expanded:hover, .expando-button.selftext.expanded, .expando-button.selftext.collapsed  {
+background-position: 0px 0px !important;
+background-image: url(%%expandtxt%%) !important;
+}
+ 
+.expando-button.video.collapsed:hover, .expando-button.video.collapsed, .expando-button.video.expanded {
+background-position: 0px 0px !important;
+background-image: url(%%expandvid%%) !important;
+}
+ 
+.expando-button.image {
+background-position: 0px 0px !important;
+background-image: url(%%expandimg%%) !important;
+}
+ 
+.expando-button {
+ 
+}
+ 
+.arrow.upmod {
+background-position: 0px -629px;
+}
+ 
+.arrow.up {
+background-position: -97px -612px;
+}
+ 
+.arrow.downmod {
+background-position: -81px -612px;
+}
+ 
+.arrow.down {
+background-position: -65px -612px;
+}
+ 
+.nsfw-stamp acronym {
+background-color: red;
+color : black;
+border : 1px solid orange !important;
+}
+ 
+.morelink {
+height: 30px;
+border: none;
+background-color: transparent;
+background-image: url(%%bgsub%%);
+background-repeat: no-repeat;
+background-position: bottom center;
+}
+ 
+.morelink .nub,  .morelink:hover .nub {
+background-image: none;
+background-color: transparent;
+}
+ 
+.morelink:hover {
+height: 30px;
+border: none;
+background-color: transparent;
+background-image: url(%%bgsub%%);
+background-repeat: no-repeat;
+background-position: bottom center;
+}
+ 
+.morelink a {
+color: rgb(255, 137, 0);
+}
+ 
+.thing .title.loggedin:visited,  .thing .title:visited{
+color: rgb(146, 82, 8) !important;
+}
+ 
+.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin.click:visited {
+color: rgb(146, 82, 8) !important;
+}
+ 
+.thing .title.loggedin, .thing .title {
+color: #FFA43C;
+}
+ 
+.link .usertext .md {
+color: #ECEBDE;
+border: 1px dotted #FFA43C;
+background-color: #29201a;
+}
+ 
+.usertext.border .usertext-body {
+background-color: transparent;
+    border: 1px dashed #FFA43C;
+    margin-top: 9px;
+    padding: 2px;
+}
+ 
+.panestack-title {
+border: none;
+}
+ 
+.commentarea {
+padding-bottom: 5px;
+}
+ 
+.menuarea {
+ overflow:hidden;
+}
+ 
+.commentarea .menuarea {
+width: 100%;
+left: -11px;
+padding-bottom: 5px;
+border-bottom: 5px solid #1B1512;
+}
+ 
+.commentarea .spacer {
+padding-left: 6px;
+}
+ 
+.link.last-clicked {
+border: none;
+}
+ 
+.RESSubscriptionButton, .RESSubscriptionButton:hover {
+color: white !important;
+background-color: #69370d  !important;
+border: 1px solid #ebbb0d !important;
+}
+ 
+.res:not(.res-nightmode) .commentarea .comment {background-color:#29201a !important;}
+.res:not(.res-nightmode) .commentarea .comment .comment {background-color:#221a15 !important;}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment {background-color:#29201a !important;}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment {background-color:#221a15 !important;}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment {background-color:#29201a !important;}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment {background-color:#221a15 !important;}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment {background-color:#29201a !important;}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {background-color:#221a15 !important;}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {background-color:#29201a !important;}
+.res:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{background-color:#221a15 !important;}
+ 
+.res-nightmode .commentarea .comment {background-color:#29201a !important;}
+.res-nightmode .commentarea .comment .comment {background-color:#221a15 !important;}
+.res-nightmode .commentarea .comment .comment .comment {background-color:#29201a !important;}
+.res-nightmode .commentarea .comment .comment .comment .comment {background-color:#221a15 !important;}
+.res-nightmode .commentarea .comment .comment .comment .comment .comment {background-color:#29201a !important;}
+.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment {background-color:#221a15 !important;}
+.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment {background-color:#29201a !important;}
+.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {background-color:#221a15 !important;}
+.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {background-color:#29201a !important;}
+.res-nightmode .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{background-color:#221a15 !important;}
+ 
+.comments-page .comment {background-color:#29201a !important;}
+.comments-page .comment .comment {background-color:#221a15 !important;}
+.comments-page .comment .comment .comment {background-color:#29201a !important;}
+.comments-page .comment .comment .comment .comment {background-color:#221a15 !important;}
+.comments-page .comment .comment .comment .comment .comment {background-color:#29201a !important;}
+.comments-page .comment .comment .comment .comment .comment .comment {background-color:#221a15 !important;}
+.comments-page .comment .comment .comment .comment .comment .comment .comment {background-color:#29201a !important;}
+.comments-page .comment .comment .comment .comment .comment .comment .comment .comment {background-color:#221a15 !important;}
+.comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment {background-color:#29201a !important;}
+.comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{background-color:#221a15 !important;}
+ 
+.res:not(.res-nightmode) .commentarea .comment  {
+border : 1px solid #2e2c2a !important;
+}
+ 
+.comment .child {
+border : none;
+}
+ 
+.comment {
+padding: 2px;
+margin: 2px;
+}
+ 
+.comments-page .comment {
+border : 1px solid #2e2c2a !important;
+}
+ 
+.new-comment .usertext-body {
+margin-top: 9px;
+padding: 2px;
+background-color: transparent;
+border : 1px dashed #FFA43C;
+}
+ 
+.author.submitter {
+padding: 2px !important;
+}
+ 
+.footer {
+border : 1px solid #2e2c2a;
+}
+ 
+.footer .col {
+border-left : 1px solid #2e2c2a;
+}
+ 
+.flat-vert.title {
+color: #FFC250;
+}
+ 
+.link {
+border-bottom: 5px solid #1B1512;
+}
+ 
+.markhelp  {
+color: #ECEBDE !important;
+border: 1px dotted #FFA43C  !important;
+background-color: #29201a  !important;
+}
+ 
+.markhelp tr {
+color: #ECEBDE !important;
+border: 1px dotted #FFA43C  !important;
+background-color: #29201a  !important;
+}
+ 
+/*Sticky*/
+ 
+.titlebox .usertext-body .md h4 a {
+    color: white;
+    opacity: 1;
+}
+ 
+.titlebox .usertext-body .md h4 {
+    left: 124px;
+    background-color: #69370D;
+    border: 1px dotted #EBBB0D;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #111111;
+    color: #FF8900;
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 20px;
+    opacity: 0.9;
+    padding: 4px;
+    position: absolute;
+    z-index: 500;
+}
+ 
+.titlebox .usertext-body .md h4:hover {
+    opacity: 1;
+}
+ 
+.titlebox .usertext-body .md h4:nth-of-type(1) {
+    top: 25px;
+}
+.titlebox .usertext-body .md h4:nth-of-type(2) {
+    top: 61px;
+}
+ 
+/***BOT****/
+ 
+.side a[href="/smallText"] { color: grey; font-size: 75%; }
+ 
+.side a[href="/smallText"]:hover {cursor: default;}
+ 
+.side a[href="/s"] {display: none;}
+ 
+/**botcss**/
+.content a[href="#gravelockelder"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -0px -0px; }
+.content a[href="#gravelockelder"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Gravelock Elder]";}
+.content a[href="#gravelockraider"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -215px -0px; }
+.content a[href="#gravelockraider"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Gravelock Raider]";}
+.content a[href="#gravehawk"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -430px -0px; }
+.content a[href="#gravehawk"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Gravehawk]";}
+.content a[href="#elanvital"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -645px -0px; }
+.content a[href="#elanvital"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Elan Vital]";}
+.content a[href="#crownofstrength"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -0px -382px; }
+.content a[href="#crownofstrength"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Crown of Strength]";}
+.content a[href="#bearpaw"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -215px -382px; }
+.content a[href="#bearpaw"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Bear Paw]";}
+.content a[href="#bindingroot"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -430px -382px; }
+.content a[href="#bindingroot"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Binding Root]";}
+.content a[href="#hymn"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -645px -382px; }
+.content a[href="#hymn"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Hymn]";}
+.content a[href="#metempsychosis"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -0px -764px; }
+.content a[href="#metempsychosis"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Metempsychosis]";}
+.content a[href="#thoughttrap"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -215px -764px; }
+.content a[href="#thoughttrap"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Thought Trap]";}
+.content a[href="#rallying"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -430px -764px; }
+.content a[href="#rallying"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Rallying]";}
+.content a[href="#brotherofthewolf"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -645px -764px; }
+.content a[href="#brotherofthewolf"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Brother of the Wolf]";}
+.content a[href="#callback"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -0px -1146px; }
+.content a[href="#callback"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Callback]";}
+.content a[href="#catapultofgoo"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -215px -1146px; }
+.content a[href="#catapultofgoo"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Catapult of Goo]";}
+.content a[href="#thundersurge"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -430px -1146px; }
+.content a[href="#thundersurge"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Thunder Surge]";}
+.content a[href="#championring"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-0%%);  background-position: -645px -1146px; }
+.content a[href="#championring"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Champion Ring]";}
+.content a[href="#burn"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -0px -0px; }
+.content a[href="#burn"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Burn]";}
+.content a[href="#fertilesoil"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -215px -0px; }
+.content a[href="#fertilesoil"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Fertile Soil]";}
+.content a[href="#deathcapberserk"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -430px -0px; }
+.content a[href="#deathcapberserk"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Death Cap Berserk]";}
+.content a[href="#destroyer"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -645px -0px; }
+.content a[href="#destroyer"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Destroyer]";}
+.content a[href="#druidburialground"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -0px -382px; }
+.content a[href="#druidburialground"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Druid Burial Ground]";}
+.content a[href="#quake"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -215px -382px; }
+.content a[href="#quake"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Quake]";}
+.content a[href="#infernoblast"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -430px -382px; }
+.content a[href="#infernoblast"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Inferno Blast]";}
+.content a[href="#flip"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -645px -382px; }
+.content a[href="#flip"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Flip]";}
+.content a[href="#frostwind"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -0px -764px; }
+.content a[href="#frostwind"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Frost Wind]";}
+.content a[href="#greatwolf"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -215px -764px; }
+.content a[href="#greatwolf"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Great Wolf]";}
+.content a[href="#ironogre"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -430px -764px; }
+.content a[href="#ironogre"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Iron Ogre]";}
+.content a[href="#junkyard"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -645px -764px; }
+.content a[href="#junkyard"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Junkyard]";}
+.content a[href="#kinfolkbrave"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -0px -1146px; }
+.content a[href="#kinfolkbrave"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Kinfolk Brave]";}
+.content a[href="#kinfolkjarl"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -215px -1146px; }
+.content a[href="#kinfolkjarl"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Kinfolk Jarl]";}
+.content a[href="#leechingring"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -430px -1146px; }
+.content a[href="#leechingring"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Leeching Ring]";}
+.content a[href="#mangywolf"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-1%%);  background-position: -645px -1146px; }
+.content a[href="#mangywolf"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Mangy Wolf]";}
+.content a[href="#dryadicpower"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -0px -0px; }
+.content a[href="#dryadicpower"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Dryadic Power]";}
+.content a[href="#potionofresistance"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -215px -0px; }
+.content a[href="#potionofresistance"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Potion of Resistance]";}
+.content a[href="#pushback"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -430px -0px; }
+.content a[href="#pushback"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Pushback]";}
+.content a[href="#raggedwolf"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -645px -0px; }
+.content a[href="#raggedwolf"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Ragged Wolf]";}
+.content a[href="#kabonk"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -0px -382px; }
+.content a[href="#kabonk"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Kabonk]";}
+.content a[href="#shrine"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -215px -382px; }
+.content a[href="#shrine"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Shrine]";}
+.content a[href="#sinmarkedzealot"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -430px -382px; }
+.content a[href="#sinmarkedzealot"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Sinmarked Zealot]";}
+.content a[href="#sisterofthefox"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -645px -382px; }
+.content a[href="#sisterofthefox"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Sister of the Fox]";}
+.content a[href="#royalvanguard"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -0px -764px; }
+.content a[href="#royalvanguard"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Royal Vanguard]";}
+.content a[href="#speed"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -215px -764px; }
+.content a[href="#speed"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Speed]";}
+.content a[href="#essencefeast"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -430px -764px; }
+.content a[href="#essencefeast"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Essence Feast]";}
+.content a[href="#pother"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -645px -764px; }
+.content a[href="#pother"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Pother]";}
+.content a[href="#unleashinnerpower"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -0px -1146px; }
+.content a[href="#unleashinnerpower"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Unleash Inner Power]";}
+.content a[href="#eternalstatue"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -215px -1146px; }
+.content a[href="#eternalstatue"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Eternal Statue]";}
+.content a[href="#wakingstones"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -430px -1146px; }
+.content a[href="#wakingstones"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Waking Stones]";}
+.content a[href="#transposition"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-2%%);  background-position: -645px -1146px; }
+.content a[href="#transposition"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Transposition]";}
+.content a[href="#vitalitywell"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -0px -0px; }
+.content a[href="#vitalitywell"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Vitality Well]";}
+.content a[href="#blessingofhaste"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -215px -0px; }
+.content a[href="#blessingofhaste"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Blessing of Haste]";}
+.content a[href="#ancestraltotem"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -430px -0px; }
+.content a[href="#ancestraltotem"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Ancestral Totem]";}
+.content a[href="#copperautomaton"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -645px -0px; }
+.content a[href="#copperautomaton"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Copper Automaton]";}
+.content a[href="#spark"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -0px -382px; }
+.content a[href="#spark"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Spark]";}
+.content a[href="#cannonautomaton"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -215px -382px; }
+.content a[href="#cannonautomaton"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Cannon Automaton]";}
+.content a[href="#violentdispersal"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -430px -382px; }
+.content a[href="#violentdispersal"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Violent Dispersal]";}
+.content a[href="#focus"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -645px -382px; }
+.content a[href="#focus"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Focus]";}
+.content a[href="#neworders"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -0px -764px; }
+.content a[href="#neworders"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[New Orders]";}
+.content a[href="#honorablegeneral"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -215px -764px; }
+.content a[href="#honorablegeneral"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Honorable General]";}
+.content a[href="#kinfolkveteran"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -430px -764px; }
+.content a[href="#kinfolkveteran"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Kinfolk Veteran]";}
+.content a[href="#rumble"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -645px -764px; }
+.content a[href="#rumble"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Rumble]";}
+.content a[href="#fury"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -0px -1146px; }
+.content a[href="#fury"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Fury]";}
+.content a[href="#crimsonbull"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -215px -1146px; }
+.content a[href="#crimsonbull"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Crimson Bull]";}
+.content a[href="#machinepriest"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -430px -1146px; }
+.content a[href="#machinepriest"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Machine Priest]";}
+.content a[href="#emberbonds"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-3%%);  background-position: -645px -1146px; }
+.content a[href="#emberbonds"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Ember Bonds]";}
+.content a[href="#endofreason"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -0px -0px; }
+.content a[href="#endofreason"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[End of Reason]";}
+.content a[href="#etherpump"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -215px -0px; }
+.content a[href="#etherpump"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Ether Pump]";}
+.content a[href="#golemskin"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -430px -0px; }
+.content a[href="#golemskin"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Golem Skin]";}
+.content a[href="#frostgale"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -645px -0px; }
+.content a[href="#frostgale"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Frost Gale]";}
+.content a[href="#magmapack"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -0px -382px; }
+.content a[href="#magmapack"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Magma Pack]";}
+.content a[href="#platearmor"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -215px -382px; }
+.content a[href="#platearmor"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Plate Armor]";}
+.content a[href="#tickbomb"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -430px -382px; }
+.content a[href="#tickbomb"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Tick Bomb]";}
+.content a[href="#vitriolaura"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -645px -382px; }
+.content a[href="#vitriolaura"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Vitriol Aura]";}
+.content a[href="#eyeofeagle"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -0px -764px; }
+.content a[href="#eyeofeagle"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Eye of Eagle]";}
+.content a[href="#proximitycharge"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -215px -764px; }
+.content a[href="#proximitycharge"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Proximity Charge]";}
+.content a[href="#frostbeard"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -430px -764px; }
+.content a[href="#frostbeard"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Frostbeard]";}
+.content a[href="#heritage"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -645px -764px; }
+.content a[href="#heritage"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Heritage]";}
+.content a[href="#faithblessing"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -0px -1146px; }
+.content a[href="#faithblessing"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Faith Blessing]";}
+.content a[href="#nutrition"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -215px -1146px; }
+.content a[href="#nutrition"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Nutrition]";}
+.content a[href="#powerbound"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -430px -1146px; }
+.content a[href="#powerbound"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Powerbound]";}
+.content a[href="#gunautomaton"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-4%%);  background-position: -645px -1146px; }
+.content a[href="#gunautomaton"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Gun Automaton]";}
+.content a[href="#vengeanceveil"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -0px -0px; }
+.content a[href="#vengeanceveil"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Vengeance Veil]";}
+.content a[href="#uselesscontraption"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -215px -0px; }
+.content a[href="#uselesscontraption"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Useless Contraption]";}
+.content a[href="#purification"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -430px -0px; }
+.content a[href="#purification"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Purification]";}
+.content a[href="#ranger'sbane"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -645px -0px; }
+.content a[href="#ranger'sbane"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Ranger's Bane]";}
+.content a[href="#hornofages"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -0px -382px; }
+.content a[href="#hornofages"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Horn of Ages]";}
+.content a[href="#faithchains"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -215px -382px; }
+.content a[href="#faithchains"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Faith Chains]";}
+.content a[href="#bloodboil"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -430px -382px; }
+.content a[href="#bloodboil"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Bloodboil]";}
+.content a[href="#summons"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -645px -382px; }
+.content a[href="#summons"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Summons]";}
+.content a[href="#scattergunner"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -0px -764px; }
+.content a[href="#scattergunner"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Scattergunner]";}
+.content a[href="#lawmemorial"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -215px -764px; }
+.content a[href="#lawmemorial"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Law Memorial]";}
+.content a[href="#desertmemorial"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -430px -764px; }
+.content a[href="#desertmemorial"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Desert Memorial]";}
+.content a[href="#tribalmemorial"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -645px -764px; }
+.content a[href="#tribalmemorial"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Tribal Memorial]";}
+.content a[href="#woodlandmemorial"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -0px -1146px; }
+.content a[href="#woodlandmemorial"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Woodland Memorial]";}
+.content a[href="#sandpactmemorial"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -215px -1146px; }
+.content a[href="#sandpactmemorial"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Sand Pact Memorial]";}
+.content a[href="#stonepactmemorial"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -430px -1146px; }
+.content a[href="#stonepactmemorial"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Stone Pact Memorial]";}
+.content a[href="#illthornseed"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-5%%);  background-position: -645px -1146px; }
+.content a[href="#illthornseed"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Illthorn Seed]";}
+.content a[href="#illthorn"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -0px -0px; }
+.content a[href="#illthorn"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Illthorn]";}
+.content a[href="#decimation"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -215px -0px; }
+.content a[href="#decimation"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Decimation]";}
+.content a[href="#godhand"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -430px -0px; }
+.content a[href="#godhand"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[God Hand]";}
+.content a[href="#hellspittermortar"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -645px -0px; }
+.content a[href="#hellspittermortar"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Hellspitter Mortar]";}
+.content a[href="#knightscholar"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -0px -382px; }
+.content a[href="#knightscholar"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Knight Scholar]";}
+.content a[href="#obelisk"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -215px -382px; }
+.content a[href="#obelisk"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Obelisk]";}
+.content a[href="#ducalinfantryman"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -430px -382px; }
+.content a[href="#ducalinfantryman"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Ducal Infantryman]";}
+.content a[href="#ducalskirmisher"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -645px -382px; }
+.content a[href="#ducalskirmisher"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Ducal Skirmisher]";}
+.content a[href="#ducalspearman"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -0px -764px; }
+.content a[href="#ducalspearman"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Ducal Spearman]";}
+.content a[href="#resonanthelm"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -215px -764px; }
+.content a[href="#resonanthelm"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Resonant Helm]";}
+.content a[href="#crossbowman"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -430px -764px; }
+.content a[href="#crossbowman"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Crossbowman]";}
+.content a[href="#royalinfantryman"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -645px -764px; }
+.content a[href="#royalinfantryman"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Royal Infantryman]";}
+.content a[href="#royalskirmisher"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -0px -1146px; }
+.content a[href="#royalskirmisher"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Royal Skirmisher]";}
+.content a[href="#royalspearman"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -215px -1146px; }
+.content a[href="#royalspearman"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Royal Spearman]";}
+.content a[href="#bunny"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -430px -1146px; }
+.content a[href="#bunny"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Bunny]";}
+.content a[href="#gravelockoutcast"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-6%%);  background-position: -645px -1146px; }
+.content a[href="#gravelockoutcast"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Gravelock Outcast]";}
+.content a[href="#efficiency"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -0px -0px; }
+.content a[href="#efficiency"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Efficiency]";}
+.content a[href="#blaststrike"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -215px -0px; }
+.content a[href="#blaststrike"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Blast Strike]";}
+.content a[href="#rigged"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -430px -0px; }
+.content a[href="#rigged"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Rigged]";}
+.content a[href="#overdrive"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -645px -0px; }
+.content a[href="#overdrive"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Overdrive]";}
+.content a[href="#plating"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -0px -382px; }
+.content a[href="#plating"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Plating]";}
+.content a[href="#ironwhip"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -215px -382px; }
+.content a[href="#ironwhip"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Iron Whip]";}
+.content a[href="#incendiaries"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -430px -382px; }
+.content a[href="#incendiaries"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Incendiaries]";}
+.content a[href="#redesign"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -645px -382px; }
+.content a[href="#redesign"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Redesign]";}
+.content a[href="#desperation"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -0px -764px; }
+.content a[href="#desperation"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Desperation]";}
+.content a[href="#blindrage"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -215px -764px; }
+.content a[href="#blindrage"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Blind Rage]";}
+.content a[href="#machinationmindset"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -430px -764px; }
+.content a[href="#machinationmindset"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Machination Mindset]";}
+.content a[href="#concentratefire"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -645px -764px; }
+.content a[href="#concentratefire"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Concentrate Fire]";}
+.content a[href="#toolinitiate"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -0px -1146px; }
+.content a[href="#toolinitiate"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Tool Initiate]";}
+.content a[href="#metalheart"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -215px -1146px; }
+.content a[href="#metalheart"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Metal Heart]";}
+.content a[href="#bombard"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -430px -1146px; }
+.content a[href="#bombard"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Bombard]";}
+.content a[href="#clocklibrary"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-7%%);  background-position: -645px -1146px; }
+.content a[href="#clocklibrary"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Clock Library]";}
+.content a[href="#wildling"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -0px -0px; }
+.content a[href="#wildling"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Wildling]";}
+.content a[href="#mangonel"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -215px -0px; }
+.content a[href="#mangonel"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Mangonel]";}
+.content a[href="#vaettrofthewild"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -430px -0px; }
+.content a[href="#vaettrofthewild"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Vaettr of the Wild]";}
+.content a[href="#imperialresources"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -645px -0px; }
+.content a[href="#imperialresources"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Imperial Resources]";}
+.content a[href="#divinemark"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -0px -382px; }
+.content a[href="#divinemark"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Divine Mark]";}
+.content a[href="#chargecoil"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -215px -382px; }
+.content a[href="#chargecoil"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Charge Coil]";}
+.content a[href="#beastrat"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -430px -382px; }
+.content a[href="#beastrat"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Beast Rat]";}
+.content a[href="#roastedbeanpotion"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -645px -382px; }
+.content a[href="#roastedbeanpotion"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Roasted Bean Potion]";}
+.content a[href="#noaidi"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -0px -764px; }
+.content a[href="#noaidi"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Noaidi]";}
+.content a[href="#dustrunner"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -215px -764px; }
+.content a[href="#dustrunner"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Dust Runner]";}
+.content a[href="#automataforge"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -430px -764px; }
+.content a[href="#automataforge"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Automata Forge]";}
+.content a[href="#stagheart"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -645px -764px; }
+.content a[href="#stagheart"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Stag Heart]";}
+.content a[href="#faithduty"]:hover {font-size: 0em; height: 375px; width: 210px; z-index: 6; background-image: url(%%spritesheet-8%%);  background-position: -0px -1146px; }
+.content a[href="#faithduty"]::after { margin-left: 1px;  font-size: 0.6em; color: rgb(255,137,0); content: "[Faith Duty]";}
+ 
+.content a[href="#gravelockelder"], .content a[href="#gravelockraider"], .content a[href="#gravehawk"], .content a[href="#elanvital"], .content a[href="#crownofstrength"], .content a[href="#bearpaw"], .content a[href="#bindingroot"], .content a[href="#hymn"], .content a[href="#metempsychosis"], .content a[href="#thoughttrap"], .content a[href="#rallying"], .content a[href="#brotherofthewolf"], .content a[href="#callback"], .content a[href="#catapultofgoo"], .content a[href="#thundersurge"], .content a[href="#championring"], .content a[href="#burn"], .content a[href="#fertilesoil"], .content a[href="#deathcapberserk"], .content a[href="#destroyer"], .content a[href="#druidburialground"], .content a[href="#quake"], .content a[href="#infernoblast"], .content a[href="#flip"], .content a[href="#frostwind"], .content a[href="#greatwolf"], .content a[href="#ironogre"], .content a[href="#junkyard"], .content a[href="#kinfolkbrave"], .content a[href="#kinfolkjarl"], .content a[href="#leechingring"], .content a[href="#mangywolf"], .content a[href="#dryadicpower"], .content a[href="#potionofresistance"], .content a[href="#pushback"], .content a[href="#raggedwolf"], .content a[href="#kabonk"], .content a[href="#shrine"], .content a[href="#sinmarkedzealot"], .content a[href="#sisterofthefox"], .content a[href="#royalvanguard"], .content a[href="#speed"], .content a[href="#essencefeast"], .content a[href="#pother"], .content a[href="#unleashinnerpower"], .content a[href="#eternalstatue"], .content a[href="#wakingstones"], .content a[href="#transposition"], .content a[href="#vitalitywell"], .content a[href="#blessingofhaste"], .content a[href="#ancestraltotem"], .content a[href="#copperautomaton"], .content a[href="#spark"], .content a[href="#cannonautomaton"], .content a[href="#violentdispersal"], .content a[href="#focus"], .content a[href="#neworders"], .content a[href="#honorablegeneral"], .content a[href="#kinfolkveteran"], .content a[href="#rumble"], .content a[href="#fury"], .content a[href="#crimsonbull"], .content a[href="#machinepriest"], .content a[href="#emberbonds"], .content a[href="#endofreason"], .content a[href="#etherpump"], .content a[href="#golemskin"], .content a[href="#frostgale"], .content a[href="#magmapack"], .content a[href="#platearmor"], .content a[href="#tickbomb"], .content a[href="#vitriolaura"], .content a[href="#eyeofeagle"], .content a[href="#proximitycharge"], .content a[href="#frostbeard"], .content a[href="#heritage"], .content a[href="#faithblessing"], .content a[href="#nutrition"], .content a[href="#powerbound"], .content a[href="#gunautomaton"], .content a[href="#vengeanceveil"], .content a[href="#uselesscontraption"], .content a[href="#purification"], .content a[href="#ranger'sbane"], .content a[href="#hornofages"], .content a[href="#faithchains"], .content a[href="#bloodboil"], .content a[href="#summons"], .content a[href="#scattergunner"], .content a[href="#lawmemorial"], .content a[href="#desertmemorial"], .content a[href="#tribalmemorial"], .content a[href="#woodlandmemorial"], .content a[href="#sandpactmemorial"], .content a[href="#stonepactmemorial"], .content a[href="#illthornseed"], .content a[href="#illthorn"], .content a[href="#decimation"], .content a[href="#godhand"], .content a[href="#hellspittermortar"], .content a[href="#knightscholar"], .content a[href="#obelisk"], .content a[href="#ducalinfantryman"], .content a[href="#ducalskirmisher"], .content a[href="#ducalspearman"], .content a[href="#resonanthelm"], .content a[href="#crossbowman"], .content a[href="#royalinfantryman"], .content a[href="#royalskirmisher"], .content a[href="#royalspearman"], .content a[href="#bunny"], .content a[href="#gravelockoutcast"], .content a[href="#efficiency"], .content a[href="#blaststrike"], .content a[href="#rigged"], .content a[href="#overdrive"], .content a[href="#plating"], .content a[href="#ironwhip"], .content a[href="#incendiaries"], .content a[href="#redesign"], .content a[href="#desperation"], .content a[href="#blindrage"], .content a[href="#machinationmindset"], .content a[href="#concentratefire"], .content a[href="#toolinitiate"], .content a[href="#metalheart"], .content a[href="#bombard"], .content a[href="#clocklibrary"], .content a[href="#wildling"], .content a[href="#mangonel"], .content a[href="#vaettrofthewild"], .content a[href="#imperialresources"], .content a[href="#divinemark"], .content a[href="#chargecoil"], .content a[href="#beastrat"], .content a[href="#roastedbeanpotion"], .content a[href="#noaidi"], .content a[href="#dustrunner"], .content a[href="#automataforge"], .content a[href="#stagheart"], .content a[href="#faithduty"]{display: inline-block; cursor:default; clear: both; padding-top:5px; margin-right: 2px;}
