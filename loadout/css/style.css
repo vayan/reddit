@@ -1,0 +1,91 @@
+body {
+}
+
+.side {
+
+}
+
+#header {
+    background-color: transparent;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+#header-bottom-right {
+    background-color: transparent;
+    bottom: 32px;
+    font-size: 1em;
+}
+
+#header-bottom-right, #header-bottom-right a {
+    color: #FAF5D8;
+}
+
+.tabmenu {
+    display: block;
+    background-image: url(%%nav-bar%%);
+    height: 60px;
+    padding-left: 340px;
+    position: relative;
+    top: -10px;
+}
+
+.tabmenu li {
+    line-height: 55px;
+}
+
+.tabmenu li a {
+    font-size: 1em;
+    color: #FAF5D8;
+    background-color: transparent;
+}
+
+.tabmenu li.selected a {
+    border: none !important;
+    color: #F4A324;
+    background-color: transparent !important;
+}
+
+.tabemenu li a:hover, .tabemenu li:hover {
+    color: #F4A324 !important;
+}
+
+.pagename {
+    position: relative;
+    z-index: 4;
+}
+
+.pagename a {
+    text-indent: -9999px;
+    width: 245px;
+    height: 105px;
+    display: block;
+    background-image: url(%%loadout-logo%%);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -5px;
+}
+
+#header-img-a {
+    position: absolute;
+    left: 266px;
+    top: 22px;
+    z-index: 5;
+}
+
+.morelink {
+    text-indent: -9999px;
+    background-repeat: no-repeat !important;
+    background: url(%%submit%%);
+    background-color: transparent !important;
+    border: none !important;
+    height: 45px;
+}
+
+.morelink:hover {
+    background: url(%%submit-hover%%);
+}
+
+.morelink .nub {
+    display: none;
+}
